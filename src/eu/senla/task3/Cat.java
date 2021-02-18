@@ -1,30 +1,68 @@
 package eu.senla.task3;
+import java.util.Arrays;
 
 public class Cat {
+    public String name;
+   public  int age;
+    Cat(String name, int age)
+    {
+        this.name = name; this.age = age;
+    }
+    public String ToString()
+    {
+        return this.name+" "+this.age;
+    }
+
     public void CatCreate( )
     {
-        String cate1 = "Barsik ";
-        int Age1 = 2;
-        System.out.println("Cat name = "+ cate1 + "Cate age = "+ Age1);
+        name = "Barsik ";
+        age = 2;
+        System.out.println("Cat name = "+ name + "Cate age = "+ age);
     }
-    private String cat2;
-    public String getCat2() {
-        return cat2;
+
+    public String getName() {
+        return name;
     }
-    public void setCat2(String cat2) {
-        this.cat2 = cat2;
+    public void setName(String cat2) {
+        this.name = name;
     }
-    private int Age2;
-    public int getAge2() {
-        return Age2;
+
+    public int getAge() {
+        return age;
     }
-    public void setAge2(int age2) {
-        Age2 = age2;
+    public void setAge(int age2) {
+        this.age = age;
     }
     public void CatCreate2(String H, int N)
     {
-        setCat2(H);
-        setAge2(N);
-        System.out.println("Cat Name = "+getCat2()+" Cat Age = "+ getAge2());
+        setName(H);
+        setAge(N);
+        System.out.println("Cat Name = "+getName()+" Cat Age = "+ getAge());
     }
+    public Cat(int N, String H)
+    {
+        setName(H);
+        setAge(N);
+    }
+    public Cat(){}
+    public static Cat[] CreateArr()
+   {
+       Cat [] arr = new Cat[5];
+      for (int i = 0; i<arr.length;i++)
+      {
+          arr[i] = new Cat("martin",3 );
+      }
+       return arr;
+   }
+   public static void Writearr(Cat[] cats)
+   {
+       for(Cat cat : cats)
+       {
+           System.out.println(cat.ToString());
+       }
+   }
+
+
+
+
 }
