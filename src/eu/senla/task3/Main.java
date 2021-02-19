@@ -33,6 +33,8 @@ public class Main {
 
       Cat[] cats = kotik.CreateArr();
       kotik.Writearr(cats);
+      boolean b = cats.equals(cats);
+      System.out.println(b);
 
 
 
