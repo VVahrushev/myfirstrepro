@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args)
     {
         Cat kotik = new Cat();
-      /* int x = 0;
+       int x = 0;
       while (x != 10)
       {
           kotik.CatCreate();
@@ -29,7 +29,7 @@ public class Main {
        System.out.println("Cat name = " + kotik3.getName() + "Cat age = " + kotik3.getAge());
        n++;
       }
-      while(n<10); */
+      while(n<10);
 
       Cat[] cats = kotik.CreateArr();
       kotik.Writearr(cats);
