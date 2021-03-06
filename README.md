@@ -30,7 +30,7 @@ Program should create a matrix and intialize it with random variables (each vari
 Then the program should compare 2 diagonales of the matrix (print the result).   
 Next step is to create an array and fill it with the rounded numbers of the diagonal (if the number of tens is more than 7 - upwards).   
 Antoher step is to create StringBuilder and put into it the 2nd, the 3d and th 4th elements of each String value in the diagonal.    
-The Last step - to print everything.
+The Last step - to print everything.    
 New techologies used:
 * arrays;
 * StringBuilder;
