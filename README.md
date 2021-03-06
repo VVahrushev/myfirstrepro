@@ -2,10 +2,10 @@
 ### Task 1
 Introduction to Java Language. 
 Technologies used:
-*packages;
-*classe;
-*local and global variables;
-*"set" and "get" methods.
+* packages;
+* classes;
+* local and global variables;
+* "set" and "get" methods.
 
 ### Task 2
 
