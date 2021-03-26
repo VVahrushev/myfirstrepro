@@ -35,3 +35,17 @@ New techologies used:
 * arrays;
 * StringBuilder;
 * methods "Double.parseDoble" and "String.valueOf".
+
+### Task 5 (Ship)
+---------------------
+
+### Task 7 (Robot)
+The aim of the task it to create 2 factories that producing parts of the robot. And then to create the robot using that factories.        
+New techonologies used:   
+* enum type;
+* the hierarchy of classes.
+
+### Task 8 (MyArrayList)
+Creating your own ArrayList with overriding all methods.   
+New technologies used:
+* Iterator, Comparator.
