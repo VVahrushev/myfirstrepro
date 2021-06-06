@@ -1,4 +1,4 @@
-# 4 finished tasks (Java courses SENLA)
+# Finished tasks (Java courses SENLA)
 ### Task 1 (Introduction to Java Language)
 Simple task mained at acquaintance with the basics of Java.   
 Technologies used:
